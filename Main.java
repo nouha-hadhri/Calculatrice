@@ -7,11 +7,14 @@ public class Main {
         int mult = Operation.multiplication(a, b);
         int sous = Operation.soustraction(a, b);
         int add = Operation.addition(a, b);
+        double div = Operation.division(a, b);
 
         System.out.println(a + " * " + b + " = " + mult);
         System.out.println(a + " - " + b + " = " + sous);
         System.out.println(a + " + " + b + " = " + add);
+        System.out.println(a + " / " + b + " = " + div);
     }
 }
+
 
 
