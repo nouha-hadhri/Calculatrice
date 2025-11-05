@@ -14,6 +14,9 @@ public class Main {
         System.out.println(a + " - " + b + " = " + sous);
         System.out.println(a + " + " + b + " = " + add);
         System.out.println(a + " / " + b + " = " + div);
+  // Test de division par zéro
+        System.out.println("Test de division par 0 :");
+        System.out.println(Operation.division(a, 0));
     }
 }
 
