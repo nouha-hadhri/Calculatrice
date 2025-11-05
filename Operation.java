@@ -18,7 +18,13 @@ public class Operation {
 
     // ➕ Nouvelle méthode : Division
     public static double division(int a, int b) {
+    if (b != 0) {
         return (double) a / b;
+    } else {
+        System.out.println("Erreur : Division par 0 !");
+        return 0;
     }
+}
+
 }
 
