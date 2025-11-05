@@ -4,11 +4,14 @@ public class Main {
         int a = 2;
         int b = 3;
 
-        // Appel de la méthode multiplication de la classe Operation
-        int resultat = Operation.multiplication(a, b);
+        int mult = Operation.multiplication(a, b);
+        int sous = Operation.soustraction(a, b);
+        int add = Operation.addition(a, b);
 
-        // Affichage du résultat
-        System.out.println(a + " * " + b + " = " + resultat);
+        System.out.println(a + " * " + b + " = " + mult);
+        System.out.println(a + " - " + b + " = " + sous);
+        System.out.println(a + " + " + b + " = " + add);
     }
 }
+
 
