@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Test de division par 0 :");
         System.out.println(Operation.division(a, 0));
 	System.out.println("Au revoir");
-
+	System.out.println("Bonsoir");
     }
 }
 
