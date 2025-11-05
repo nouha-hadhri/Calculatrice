@@ -1,0 +1,13 @@
+public class Operation {
+
+    // Méthode statique qui multiplie deux nombres
+    public static int multiplication(int x, int y) {
+        return x * y;
+    }
+
+    // Méthode principale pour test rapide (facultative ici)
+    public static void main(String[] args) {
+        int resultat = multiplication(2, 3);
+        System.out.println("Résultat de la multiplication : " + resultat);
+    }
+}
