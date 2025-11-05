@@ -12,6 +12,7 @@ public class Main {
         System.out.println(a + " * " + b + " = " + mult);
         System.out.println(a + " - " + b + " = " + sous);
         System.out.println(a + " + " + b + " = " + add);
+	System.out.println("Au revoir");
     }
 }
 
